@@ -11,7 +11,7 @@ def using_pop(array)
 end
 
 def pop_with_args(array)
-  array.pop
+  array.delete_at(0,1)
 end
 
 
